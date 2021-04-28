@@ -38,7 +38,7 @@ body{font-size: 16px;}
 
 @media screen and (max-width: 768px){
 
-  #sec1{overflow: scroll;}
+  #container{position: relative; width: 100%; overflow: auto;}
   img.px{image-rendering: auto;}
   .mo_block{display: block;}
   .mo_none{display: none;}
@@ -52,8 +52,22 @@ body{font-size: 16px;}
   #header .gr_btn{width: 27.778vw; right: 4.722vw; top: 50%; transform: translateY(-50%);}
   #header .hoverHeart{display: none !important;}
   /*sec*/
-  #sec1 .sec1_sub1{top: 22.222vw;width: 86.667vw; height: auto;}
+  #sec1 .sec1_sub1{top: 22.222vw;width: 86.667vw;}
 
-  #sec2{top: 22.222vw;width: 86.667vw; height: auto;}
+  #sec2{top: 22.222vw;width: 86.667vw;}
   
+  #sec3{border: 0;}
+
+  #sec4 .sec4_sub_con{width: 88.889vw; margin-top: 15.833vw;}
+  #sec4 .sec4_sub div{width: 44.444vw; border-bottom: 0;padding: 2.222vw;}
+  #sec4 .sec4_sub div:nth-of-type(odd){padding-left: 0;}
+  #sec4 .sec4_sub div:nth-of-type(even){padding-right: 0;}
+
+  #sec5,#sec6{padding-top: 8.333vw; margin-top: 0;}
+
+  #sec7{background: url('../img/m_sec7_tile.png') repeat center; border-top: 5px solid #333; border-bottom: 5px solid #333;}
+  #sec7 .sec_title{width: 66.667vw; margin-bottom: 10vw; margin-top: 15vw;}
+  #sec7 .sec7_sub_con{width: 90vw; margin-top: 66.667vw;}
+  #sec7 .sec7_sub > div{vertical-align: top; width: 43.611vw;margin: 3.056vw 1.367vw;}
+  #sec7 .sec7_sub.load {animation: mopenpp 1s both;}
 }
