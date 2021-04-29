@@ -15,12 +15,13 @@ body{font-size: 16px;}
 #header .gr_btn{position: absolute; right: 10.938vw; top: 1.406vw; z-index: 1; width: 10.885vw;}
 /* #header .hoverHeart{width: 3.021vw; position: absolute; right:0; top: 2.604vw; pointer-events: none; opacity: 0;} */
 
-
+/* 클레스 아이디 전체 넓이 크기 조절 값 */
 #sec1,#sec2{position: relative; width: 100%; background-color: #fff;}
-.sec_bg img{width: 100%;}
+.sec_bg img{width: 100%;height: 80vh;}
 .sec_title{width: 49.010vw;position: absolute;left: 50%;top: 7.813vw;transform: translateX(-50%);}
 .sec_sub{position: absolute;left: 50%;transform: translateX(-50%) !important;}
 
+/* 이미지들 위치 값 */
 #sec1 .sec1_sub1{position: absolute; top: 6.250vw;left: 50%; transform: translateX(-50%);width: 77.292vw; z-index: 2;}
 #sec1 .sec1_sub2{position: absolute; top: 25.573vw; left: 50%; transform: translateX(-50%); width: 52.604vw; font-size: 0;}
 #sec1 .sec1_sub2 div{width: 25.833vw; display: inline-block;}
@@ -43,17 +44,5 @@ body{font-size: 16px;}
   .mo_block{display: block;}
   .mo_none{display: none;}
 
-  /*quick*/
-  #quick{display: none !important;}
-
-  /*header*/
-  #header{position: fixed;top: 0;left: 0;width: 100vw;height: 15.556vw;z-index: 999;}
-  #header .logo{width: 43.889vw;left: 4.167vw;transform: translate(0,-50%);}
-  #header .gr_btn{width: 27.778vw; right: 4.722vw; top: 50%; transform: translateY(-50%);}
-  #header .hoverHeart{display: none !important;}
-  /*sec*/
-  #sec1 .sec1_sub1{top: 22.222vw;width: 86.667vw; height: auto;}
-
-  #sec2{top: 22.222vw;width: 86.667vw; height: auto;}
-  
+ 
 }

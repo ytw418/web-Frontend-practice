@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.mo{display: none;}
+.pc{display: block;}
+.inline{display: inline;}
+img{display: block; width: 100%;} /*이미지 반응형 효과*/
+img.px{image-rendering: pixelated;}
+body{font-size: 16px;}
+#container{position: relative; width: 100%;}
+
+#header{position: relative; width: 100%;height: 6.146vw;text-align: center; background:fff;
+    font-size: 2vw;}
+#header .logo{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); }
+#header .header_btn{position: absolute; right: 10.938vw; top: 1.406vw; z-index: 1;
+    font-style:normal;
+    font-weight: bolder; 
+    font-family: sans-serif;
+    border-style:inset;
+    border-color: lightseagreen;
+    color: rgb(4, 17, 32);
+}
+
+
+#sec1{position: relative; width: 100%; background-color:blue;height: 80vh;}
+#sec2{position: relative; width: 100%; background-color: #fff; height: 80vh;}
+#sec3{position: relative; width: 100%; background-color:blue;height: 80vh;}
+#sec4{position: relative; width: 100%; background-color:brown;height: 80vh;}
+#sec5{position: relative; width: 100%; background-color:chartreuse;height: 80vh;}
+
+
+.sec_bg img{width: 100%;height: 80vh; } /*이미지 높이 넓이를 div 값과 맞추는 코드*/
+/* #sec1 #bg1{background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/about.jpg)} */
+
+/* 백그라운드 이미지 위에 이미지를 올리는 코드 */
+#sec1 .sec1_main1{position: absolute; top: 15vw; left: 50%; transform: translateX(-50%); width: 52.604vw; font-size: 0;}
+#sec1 .sec1_main1 div{width: 25.833vw; display: inline-block;}
+#sec1 .sec1_main1 div:first-child{margin-right: 0.469vw;}
+#sec1 .sec1_main1 div:last-child{margin-left: 0.469vw;}
+
+
+
+
+@media screen and (max-width: 768px){
+
+}
