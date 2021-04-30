@@ -16,9 +16,9 @@
     <!-- 부가적인 부트스트랩 테마 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 
-    <link  rel = " 스타일 시트 " href = " https://unpkg.com/aos@next/dist/aos.css "/>
-
+    
     <title>올맵</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 <div id="container">
@@ -41,25 +41,26 @@
             <img class="mo" src="" alt="">
         </div>
         <div class="sec1_main1">
-            <div class="sec1_main1_img">
+            <div class="sec1_main1_img aos-init aos-animate" data-aos="fade-rigt" data-aos-duration="1000">
                 <img class="pc" src="./img/hero-bg.jpg" alt="">
                 <img class="mo" src="" alt="">
             </div>
-            <div class="sec1_main1_img">
+            <div class="sec1_main1_img aos-init aos-animate" data-aos="fade-left" data-aos-duration="1000">
                 <img class="pc" src="./img/hero-bg.jpg" alt="">
                 <img class="mo" src="" alt="">
+                </div>
         </div>
 
       
     </div>
     <!-- 2번 페이지 -->
-    <div id="sec2">
-        <div class="sec_bg">
+    <div id="sec2" data-aos="fade-up" data-aos-duration="1000" class="aos-init aos-animate">
+        <div class="sec_bg ">
             <img class="pc" src="./img/portfolio/portfolio-1.jpg" alt="">
             <img class="mo" src="" alt="">
         </div>
-        <div class="sec2_main1">
-            <img class="pc" src="" alt="">
+        <div class="sec2_main1 aos-init aos-animate" data-aos="zoom-in-right" data-aos-duration="1000">
+            <img class="pc" src="./img/portfolio/portfolio-3.jpg" alt="">
             <img class="mo" src="" alt="">
         </div>
     </div>
@@ -97,19 +98,19 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
+
+
+
+ <!-- Vendor JS Files -->
+ <script src="assets/vendor/aos/aos.js"></script>
+ <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+ <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+ <script src="assets/vendor/php-email-form/validate.js"></script>
+ <script src="assets/vendor/purecounter/purecounter.js"></script>
+ <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+ <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
 
 <!-- 합쳐지고 최소화된 부트스트랩 최신 자바스크립트 -->

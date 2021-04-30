@@ -40,6 +40,12 @@ body{font-size: 16px;}
 #sec1 .sec1_main1 div:first-child{margin-right: 0.469vw;}
 #sec1 .sec1_main1 div:last-child{margin-left: 0.469vw;}
 
+/* #sec2 .sec2_main1{position: absolute; top: 15vw; left:50vw; transform: translate(-50%); width: 52vw; font-size: 0; } */
+#sec2 .sec2_main1{position: absolute; top: 21vw; left: 50%; transform: translateX(-50%); width: 52.604vw; font-size: 0;}
+#sec2 .sec2_main1 div{width: 25.833vw; display: inline-block;}
+#sec2 .sec2_main1 div:first-child{margin-right: 0.469vw;}
+#sec2 .sec2_main1 div:last-child{margin-left: 0.469vw;}
+
 
 
 
