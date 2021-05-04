@@ -43,13 +43,10 @@
     position: absolute;
     right: 24px;
     top: 24px;
-    background: blue url(./img/icon-play.png) no-repeat center;
+    background: blue url(../imge/icon-play.png) no-repeat center;
     background-size: 24px;
     z-index: 2;
     border-radius: 50%;
-
-
-
 }
 
 
