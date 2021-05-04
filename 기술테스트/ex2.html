@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 슬라이더 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  
+  
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
@@ -40,12 +48,12 @@
     <!-- 헤더라인 끝-->
     <!-- 1번 페이지 -->
     <div id="sec1">
-        <div class="sec_bg animate__backInLeft" id="bg1">
-            <img class="pc" src="../allimg/01.jpg" alt="">
+        <div class="sec_bg" id="bg1">
+            <img class="pc" src="../img/sec1_bg.png" alt="">
             <img class="mo" src="" alt="">
         </div>
         <div class="wrap">
-            <h1>단순 찍어내기식 디자인은 그만,</h1>
+            <h1 class="main-text">단순 찍어내기식 디자인은 그만,</h1>
             
            <p id="dynamic" class="lg-text">
               
@@ -55,17 +63,25 @@
            </p> 
         
         </div>
+        <div class="slide">
+            <ul class="bxslider">
+                <li><img src="../img/sec2_d.png" /></li>
+                <li><img src="../img/sec2_m.png" /></li>
+                <li><img src="../img/sec2_mu.png" /></li>
+                <li><img src="../img/sec2_d.png" /></li>
+              </ul>
+        </div>
         <div class="sec1_main1">
             <div class="sec1_main1_img1">
-                <img class="pc" src="../allimg/fo1.JPG" alt="">
+                <img class="pc" src="../img/11.png" alt="">
                 <img class="mo" src="" alt="">
             </div>
             <div class="sec1_main1_img2 aos-init aos-animate">
-                <img class="pc" src="../allimg/fo2.JPG" alt="">
+                <img class="pc" src="../img/22.png" alt="">
                 <img class="mo" src="" alt="">
             </div>
             <div class="sec1_main1_img3 aos-init aos-animate">
-                <img class="pc" src="../allimg/fo3.JPG" alt="">
+                <img class="pc" src="../img/33.png" alt="">
                 <img class="mo" src="" alt="">
             </div>
         </div>
@@ -75,7 +91,7 @@
     <!-- 2번 페이지 -->
     <div id="sec2">
         <div class="sec_bg " data-aos="fade-right" data-aos-duration="1000" aos-init aos-animate>
-            <img class="pc" src="../allimg/02.jpg" alt="">
+            <img class="pc" src="../img/sec2_bg_a.png" alt="">
             <img class="mo" src="" alt="">
         </div>
     <div class="sec2_mainx">
@@ -83,12 +99,16 @@
         <img class="mo" src="" alt="">
     </div>    
     <div class="sec2_main1">
-        <div class="sec2_main1_img1 aos-init aos-animate" data-aos="zoom-in-right" data-aos-duration="1000">
-            <img class="pc" src="" alt="">
+        <div class="sec2_main1_img1"data-aos="fade-left" data-aos-duration="1000" aos-init aos-animate>
+            <img class="pc" src="../img/sec2_d.png" alt="">
             <img class="mo" src="" alt="">
         </div>
-        <div class="sec2_main1_img2 aos-init aos-animate" data-aos="zoom-in-left" data-aos-duration="1000">
-            <img class="pc" src="" alt="">
+        <div class="sec2_main1_img2"data-aos="fade-left" data-aos-duration="1000" aos-init aos-animate>
+            <img class="pc" src="../img/sec2_m.png" alt="">
+            <img class="mo" src="" alt="">
+        </div>
+        <div class="sec2_main1_img3"data-aos="fade-left" data-aos-duration="1000" aos-init aos-animate>
+            <img class="pc" src="../img/sec2_mu.png" alt="">
             <img class="mo" src="" alt="">
         </div>
     </div>    
@@ -106,7 +126,7 @@
     </div>
     <!-- 4번 페이지 -->
     <div id="sec4">
-        <div class="sec_bg " data-aos="fade-left" data-aos-duration="1000" aos-init aos-animate>
+        <div class="sec_bg " data-aos="fade-up" data-aos-duration="1000" aos-init aos-animate>
             <img class="pc" src="../allimg/04.jpg" alt="">
             <img class="mo" src="" alt="">
         </div>
