@@ -5,12 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- 슬라이더 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<!-- 이미지 슬라이더 -->
+    <script src="./imgSlider.js"></script>
 
-  
+
   
     
     <!-- Google Fonts -->
@@ -22,8 +20,6 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <!-- 합쳐지고 부트스트랩 최소화된 최신 CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
     <!-- 부가적인 부트스트랩 테마 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
@@ -33,18 +29,29 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+    <!-- 좌측스크롤 -->
+    <div rel="js-scroll_Arrow" class="scrollarrow move"></div>
+    
 <div id="container">
     <!-- 헤더라인 -->
-    <div id="header"> 
-        <a class="logo" href="#">
-            <img class="pc" src="./imges/allmap logo.JPG" alt="">
-            <img class="mo" src="" alt="">
-        </a>
-        <a class="header_btn" href="#sec5">상담문의
+    <header>
+    <div class="wrapper"> 
+    <h1>
+        <a class="logo" href="#">ALLMAP
             <img class="pc" src="" alt="">
             <img class="mo" src="" alt="">
         </a>
+    </h1>
+    <nav>
+    <ul class="menu">
+        <li><a id="m2" href="#sec4">디자인</a></li>
+        <li><a id="m2" href="#sec2">블로그</a></li>
+        <li><a id="m3" href="#sec3">홈페이지</a></li>
+        <li><a id="m4" href="#sec5">문의하기</a></li>
+    </ul>
+    </nav>
     </div>
+</header>
     <!-- 헤더라인 끝-->
     <!-- 1번 페이지 -->
     <div id="sec1">
@@ -52,6 +59,12 @@
             <img class="pc" src="../img/sec1_bg.png" alt="">
             <img class="mo" src="" alt="">
         </div>
+        <!-- 1번섹션 슬라이드 스크롤 -->
+        <div class="center-it">
+            <div class="mouse"></div>
+            <div class="caption">scroll</div>
+        </div>
+<!--      
         <div class="wrap">
             <h1 class="main-text">단순 찍어내기식 디자인은 그만,</h1>
             
@@ -62,15 +75,16 @@
                최적의 디자인을 만나보세요
            </p> 
         
+        </div> -->
+        <!-- 슬라이드 -->
+        <div id="slider01">
+            <img src="http://www.allmap.co.kr/default/img/images/main_slide05.jpg">
+            <img src="http://www.allmap.co.kr/default/img/images/main_slide07.jpg">
+            <img src="http://www.allmap.co.kr/default/img/images/main_slide08.jpg">
+            <img src="http://www.allmap.co.kr/default/img/images/main_slide04.jpg">
+           
         </div>
-        <div class="slide">
-            <ul class="bxslider">
-                <li><img src="../img/sec2_d.png" /></li>
-                <li><img src="../img/sec2_m.png" /></li>
-                <li><img src="../img/sec2_mu.png" /></li>
-                <li><img src="../img/sec2_d.png" /></li>
-              </ul>
-        </div>
+     
         <div class="sec1_main1">
             <div class="sec1_main1_img1">
                 <img class="pc" src="../img/11.png" alt="">
@@ -164,7 +178,23 @@
 </script>
 <script src="./main.js"></script>
 
+<!-- 이미지 슬라이더 -->
+<script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+        imgSlider("slider01", {
+            autoplayEnabled: true,
+            autoplayInterval : 3000 , 
+            buttonsVisible : false ,
+            maxWidth: '100vw',
+            
+            maxHeight: '100vh'
+           
+       
+        });
+  
+    });
 
+</script>
 
 
 
