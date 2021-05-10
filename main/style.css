@@ -49,13 +49,14 @@ a{text-decoration: none;}
 
 
 header{height: 10vh;;border: 1vh; width: 100%; z-index:999;top: 0;
-left: 0;padding: 5px; background-color: rgba(250, 250, 250, 0.7);}
-h1{color:tomato; line-height: 10vh;float: left;
+left: 0;padding: 1px; background-color: rgba(250, 250, 250, 0.7); }
+h1{ line-height: 10vh;float: left;
 display: block;font-size: 2vw;  font-family: 'Nanum Brush Script', cursive;}
+h1 a{color: #000;}
 .wrapper{width: 80vw; margin: 0 auto;}
 .menu{float: right;font-size: 1vw;}
 .menu li{float: left;font-weight: bold;color: #000;}
-.menu a{line-height:10vh;padding:0 15px; display: block;}
+.menu a{line-height:10vh;padding:0 15px; display: block;color: #000;}
 .wrapper :hover{
     color:cornflowerblue;
 }
@@ -79,7 +80,7 @@ display: block;font-size: 2vw;  font-family: 'Nanum Brush Script', cursive;}
 
  /* 헤더라인 끝 */
 
-#sec1{position: relative; width: 100%; height: 55rem; background-color:#fff;}
+#sec1{position: relative; width: 100%; height: 30rem; background-color:#fff;}
 #sec2{position: relative; width: 100%; background-color:#fff;}
 #sec3{position: relative; width: 100%; background-color:#fff;}
 #sec4{position: relative; width: 100%; background-color:#fff;}
@@ -171,10 +172,10 @@ display: block;font-size: 2vw;  font-family: 'Nanum Brush Script', cursive;}
     -webkit-transform: translate(-50%, -50%);  -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);  -o-transform: translate(-50%, -50%);  transform: translate(-50%, -50%);}
   
-  .caption { font-size:11px; text-align:center; color:rgb(17, 13, 16); opacity:0.6;  margin-top: 7px;}
+  .caption { font-size:11px; text-align:center; color: rgb(77, 67, 67); opacity:0.6;  margin-top: 7px;}
   
-  .mouse {  display: inline-block;  height: 44px; width: 28px; border-radius: 12px; border: 2px solid rgb(37, 34, 37); text-align: center; opacity:0.5}
-  .mouse:after {  display: inline-block; height: 8px; width: 8px; background-color: #fff; border-radius: 50%;
+  .mouse {  display: inline-block;  height: 36px; width: 20px; border-radius: 12px; border: 2px solid rgb(95, 80, 80); text-align: center; opacity:0.5}
+  .mouse:after {  display: inline-block; height: 6px; width: 6px; background-color: rgb(100, 91, 91); border-radius: 50%;
     content: "";  -webkit-animation: scroll 1.3s ease-out infinite forwards;
     -moz-animation: scroll 1.3s ease-out infinite forwards;  animation: scroll 1.3s ease-out infinite forwards;}
   
