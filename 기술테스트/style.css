@@ -27,9 +27,7 @@ a{text-decoration: none;}
     
     
 }
-.lg-text-sub{
-    
-}
+
 #dynamic{
     position: relative;
     display: inline-block;
@@ -122,7 +120,7 @@ display: block;font-size: 2vw;  font-family: 'Nanum Brush Script', cursive;}
 
 
 #sec2 .sec2_main1 :hover{
-     transform: scale(1.2); padding: 1% ; color: #000; border-color: seagreen;z-index: ;/* 작아지는 효과*/
+     transform: scale(1.2); padding: 1% ; color: #000; border-color: seagreen;z-index: 1;/* 작아지는 효과*/
     }
 
 /* .sec2_main1_img1{position: absolute; top: 23vw; left: 50%; transform: translateX(80%); width: 18.604vw; font-size: 0; z-index: 3;}
@@ -239,4 +237,5 @@ display: block;font-size: 2vw;  font-family: 'Nanum Brush Script', cursive;}
         .menu{float: right;font-size: 1vw;}
         .menu li{float: left;font-weight: bold;color: #000;}
         .menu a{line-height:7vh;padding:0 15px; display: block;}
+      
 }
