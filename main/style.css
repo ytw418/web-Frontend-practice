@@ -85,6 +85,7 @@ h1 a{color: #000;}
 #sec3{position: relative; width: 100%; background-color:#fff;}
 #sec4{position: relative; width: 100%; background-color:#fff;}
 #sec5{position: relative; width: 100%; background-color:#fff;}
+#sec6{position: relative; width: 100%; background-color:rgba(60, 206, 250, 0.7);}
 
 
 /* 백그라운드 이미지 애니메이션 효과*/
@@ -143,6 +144,29 @@ h1 a{color: #000;}
 #sec3 .sec3_main1_1 :hover{
     transform: scale(1.2); padding:10px; border-color: seagreen;z-index: 1;/* 작아지는 효과*/
    }
+#sec6 .sec6_line {text-align: center;}
+#sec6 .sec6_line .sec6_line_b{
+  display: inline-block;
+  margin:20px;
+  padding: 30px;
+  color:000;
+  text-align: left;
+  line-height:30px;
+  background-color: ivory;
+
+}
+.sec6_line_b2{margin:100px;}
+#sec6 .sec6_line .sec6_line_b .b_h
+{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#sec6 .sec6_line .sec6_line_b .b_t
+{
+font-size: 30px;
+padding-bottom: 30px;
+}
 
 
 
