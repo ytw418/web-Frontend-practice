@@ -10,6 +10,8 @@ img.px{image-rendering: pixelated;}
 body{font-size: 16px;}
 #container{position: relative; width: 100%;}
 a{text-decoration: none;}
+
+
 /* 다이나믹 텍스트 효과 시작  */
 .wrap{
     text-align: center;
@@ -119,6 +121,7 @@ h1 a{color: #000;}
  /* 슬라이드 이미지 */
 
  #slider01{position:absolute; top:0;left: 50%; transform: translate(-50%);width: 100%;height: 100%; z-index: 11;}
+
 
 
 #sec2 .sec2_main1 :hover{
@@ -243,6 +246,31 @@ padding-bottom: 30px;
     background-image: url(../img/arrow-down-000.png);
     opacity: 0.4;
     display: block;
+}
+
+.swiper-container {
+  width: 600px;
+  height: 300px;
+
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 @keyframes arrowmove{
     0%{
