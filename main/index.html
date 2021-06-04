@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Link Swiper's CSS -->
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
 
 
@@ -36,7 +35,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body>
+<body data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
     <!-- 좌측스크롤 -->
     <div rel="js-scroll_Arrow" class="scrollarrow move"></div>
 
@@ -52,16 +51,52 @@
                 </h1>
                 <nav>
                     <ul class="menu">
-                        <li><a id="m2" href="#sec4">디자인</a></li>
-                        <li><a id="m2" href="#sec2">블로그</a></li>
-                        <li><a id="m3" href="#sec3">홈페이지</a></li>
-                        <li><a id="m4" href="#sec5">문의하기</a></li>
+                        <li>회사소개
+                            <ul><a id="" href="#">회사소개</a></ul>
+                            <ul><a id="" href="#">CEO 인사말</a></ul>
+                            <ul><a id="" href="#">찾아오시는길</a></ul>
+                        </li>
+                        <li>사업분야
+                            <ul><a id="" href="#">브랜딩</a></ul>
+                            <ul><a id="" href="#">디자인</a></ul>
+                            <ul><a id="" href="#">바이럴</a></ul>
+                            <ul><a id="" href="#">SNS</a></ul>
+                            <ul><a id="" href="#">영상</a></ul>
+                        </li>
+                        <li> 포트폴리오
+                            <ul><a id="" href="#">브랜딩</a></ul>
+                            <ul><a id="" href="#">컨텐츠</a></ul>
+                            <ul><a id="" href="#">인쇄물</a></ul>
+                            <ul><a id="" href="#">출력물</a></ul>
+                            <ul><a id="" href="#">프랜차이즈</a></ul>
+                            <ul><a id="" href="#">영상</a></ul>
+                        </li>
+                        <li>고객센터
+                            <ul><a id="" href="#">1:1문의</a></ul>
+                            <ul><a id="" href="#">올맵 픽쳐스</a></ul>
+                        </li>
                     </ul>
                 </nav>
             </div>
         </header>
+
+
+
+
+
+
+
+
+        
         <!-- 헤더라인 끝-->
         <!-- 1번 페이지 -->
+
+        <div class="bgcolor"></div>
+<div id="sec01">
+    <img class="bg" src="./img/main_slide06.jpg" alt="">
+    <img  class="logo" src="./img/sec1_main2.png" alt="">
+</div>
+        
         <div id="sec1">
             <div class="sec_bg" id="bg1">
                 <img class="pc" src="" alt="">
@@ -299,13 +334,9 @@
         });
     </script>
 
-
-
-
+<!-- 스와퍼 슬라이드 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js"></script>
-    <!-- 스택 슬라이더 -->
-
-
+    <!-- 스와퍼 슬라이드 초기화 -->
     <script>
         var swiper = new Swiper(".mySwiper", {
             pagination: {

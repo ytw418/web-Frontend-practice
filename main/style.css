@@ -1,17 +1,38 @@
 /*공통사항*/
 *{margin: 0; padding: 0; box-sizing: border-box;}
-html, body {overflow-x:hidden; background-color: #fff;}
+html, body {overflow-x:hidden;}
 ul,li{list-style-type: none;}
 .mo{display: none;}
 .pc{display: block;}
-.inline{display: inline;}
-img{display: block; width: 100%;}
-img.px{image-rendering: pixelated;}
-body{font-size: 16px;}
-#container{position: relative; width: 100%;}
+img{display:block; width: 100%;}
+#container{position: relative; width: 80%; left: 10%;}
 a{text-decoration: none;}
 
 
+
+
+
+#sec01 {
+  height: 47.604vw;
+}
+#sec01 .bg {
+  width: 100% !important;
+  height: 100% ;
+  position: absolute ;
+  left: 0 ;
+  top: 0 ;
+  transform: translateX(0) ;
+  animation: blinki 2s both;
+
+}
+#sec01 img {
+  position: absolute;
+  left: 50.01%;
+  transform: translateX(-50.01%);
+}
+#sec01 .logo {
+  width: 8.646vw;
+  top: 0px;}
 /* 다이나믹 텍스트 효과 시작  */
 .wrap{
     text-align: center;
@@ -132,9 +153,11 @@ h1 a{color: #000;}
 .sec2_main1_img2{position: absolute; top: 18vw; left: 50%; transform: translateX(10%); width: 18.604vw; font-size: 0; z-index: 1;}
 .sec2_main1_img3{position: absolute; top: 12vw; left: 50%; transform: translateX(80%);  width: 18.604vw; font-size: 0; z-index: 2;} */
 
-.sec2_main1_img1{position: absolute; top: 23vw; left: 65%; width: 18.604vw; font-size: 0; z-index: 3;}
-.sec2_main1_img2{position: absolute; top: 18vw; left: 50%; width: 18.604vw; font-size: 0; z-index: 1;}
-.sec2_main1_img3{position: absolute; top: 12vw; left: 63%; width: 18.604vw; font-size: 0; z-index: 2;}
+#sec2 .sec2_main1_img1{position: absolute; top: 23vw; left: 65%; width: 18.604vw; font-size: 0; z-index: 3;}
+#sec2 .sec2_main1_img2{position: absolute; top: 18vw; left: 50%; width: 18.604vw; font-size: 0; z-index: 1;}
+#sec2 .sec2_main1_img3{position: absolute; top: 12vw; left: 63%; width: 18.604vw; font-size: 0; z-index: 2;}
+
+
 
 #sec3{ background-size:cover;  background-repeat: no-repeat; width:100%; background-image:url('./img/sec3_bg_t.png')}
 
